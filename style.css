@@ -51,9 +51,10 @@ nav li a{
     text-decoration: none;
 }
 
-nav li a:hover, .dropdown:hover, .dropdown:active {
+nav li a:hover, .dropdown:hover {
     background-color: #999FFF;
     color: white;
+    border-radius: 4px 4px 0 0;
 }
 
 .dropdown-content {
@@ -61,6 +62,7 @@ nav li a:hover, .dropdown:hover, .dropdown:active {
     position: absolute;
     background-color: #999FFF;
     min-width: 200px;
+    border-radius: 0 4px 4px 4px;
 }
 
 .dropdown-content a {
